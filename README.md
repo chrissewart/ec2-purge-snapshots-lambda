@@ -1,3 +1,5 @@
+**You probably don't need this now [EC2 supports Lifecycle Policies for EBS Snapshots](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html), although it doesn't seem to support retaining one daily, one weekly and one monthly snapshot yet.**
+
 # ec2-purge-snapshots-lambda
 An AWS Lambda function that purges EC2 snapshots according to the rules you specify. This script is based off of https://github.com/stiang/ec2-purge-snapshots
 
